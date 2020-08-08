@@ -7,6 +7,7 @@ const classesController = new ClassesController();
 const connectionsController = new ConnectionsController();
 
 routes.get('/', (req, res) => {
+  console.log('GET /');
   return res.json({ message: 'Heya Globe' });
 });
 
