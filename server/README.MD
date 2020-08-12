@@ -1,24 +1,13 @@
-# Preparação
+# Server - REST API
 
 ## Database
 
-Executar script para execução das migrations
+Run the coomand below in order to run all database migrations
+
 `yarn knex:migrate`
 
 ## Server
 
-Executar sciprt para execução do servidor
+Run the command below to execute the server
+
 `yarn start`
-
-# Funcionalidades
-
-## Conexões
-
-- Rota para listar total de conexões já realizadas;
-- Rota para criar uma nova conexão.
-
-## Aulas
-
-- Rota para criar aula;
-- Rota para listar aulas;
-  - Filtrar por matéria, dia da semana e horário;
